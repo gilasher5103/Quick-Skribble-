@@ -1,14 +1,8 @@
 import socket
 from tkinter import *
 import select
-import msvcrt
-import urllib.request
 import threading
-from threading import *
-from time import *
-import random
-from datetime import datetime
-import re
+
 
 print("client start")
 client_socket = socket.socket()
