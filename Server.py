@@ -1,17 +1,10 @@
-import socket #TODO: fix the chat problem!!!!!!!!!!!!!!!!!!!!
+import socket 
 import select
-import msvcrt
-import urllib.request
 import threading
-from threading import *
 from time import *
 import time
 import random
-from datetime import datetime
-import random
 import BOT
-#TODO: The problem is that the server sends the location to draw but becuase everything is happening so fast he sends the next message with it creating
-#TODO: a situation where the final location to draw is connected to the words LocToDraw which casues an error in the int casting
 
 
 server_socket = socket.socket()
