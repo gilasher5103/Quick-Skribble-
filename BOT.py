@@ -1,26 +1,16 @@
 import socket
 from tkinter import *
 import select
-import msvcrt
-import urllib.request
 import threading
-from threading import *
-from time import *
-import time
-import random
-from datetime import datetime
-import re
-import glob
 import numpy as np
 import matplotlib.pyplot as plt
 from keras.preprocessing import image
 import glob
-import tensorflow as tf#!!!!!!!!!!!!!!
-import os#!!!!!!!!!!!!!
+import tensorflow as tf
 from PIL import Image
 import os
-import PIL
 import io
+
 bot_socket = socket.socket()
 secondary_bot_socket = socket.socket()
 
